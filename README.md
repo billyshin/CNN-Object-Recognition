@@ -17,7 +17,7 @@ CIFAR-10 dataset can be found in https://www.cs.toronto.edu/~kriz/cifar.html
 We need to preprocess the dataset so the images and labels are in a form that Keras can ingest. First of all, we will normalize the images. Furthermore, we will also convert our class label, a single integer value (0-9) to one-hot vector of length of ten, e.g. the class label of 6 should be denoted  [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]. This is a standard output format for neural networks. 
 
 ## Step 4: Building the All-CNN:
-Using the 2015 ICLR paper, "Striving For Simplicity: The All Convolutional Net" as a reference, we can implement the All-CNN network in Keras.
+Using the 2015 ICLR paper, "Striving For Simplicity: The All Convolutional Net" as a reference, we can implement the All-CNN network in Keras. This paper can be found at https://arxiv.org/pdf/1412.6806.pdf
 
 ## Step 5: Defining Parameters and Training the Model:
 Define hyper parameters, such as learning rate and momentum, define an optimizer, compile the model, and fit the model to the training data. (See the details in code)
