@@ -26,4 +26,4 @@ Define hyper parameters, such as learning rate and momentum, define an optimizer
 Leverage the network to make prediction based on trained weights. To start, we will generate a dictionary of class labels. Next, we will make predictions on nine images and compare the results to the ground-truth labels. Moreover, we will plot the images for visual reference.
 Sample result:
 
-![alt text](https://github.com/billyshin/CNN-Object-Recognition/Screen-Shot-2018-12-25-at-5.34.50-AM.png)
+![alt text](https://github.com/billyshin/CNN-Object-Recognition/blob/master/Screen-Shot-2018-12-25-at-5.34.50-AM.png)
